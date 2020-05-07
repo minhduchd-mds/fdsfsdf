@@ -1,0 +1,1188 @@
+/*------------------------------------------------------------
+ Theme name : FPT Aptech
+ Author : Duc
+ Description : Bootstrap Theme v4.0.0
+--------------------------------------------------------------
+        CSS INDEX
+========================
+1.Theme Default CSS (typography , body  ,link color ,section)
+2.Header
+  2.1  NavBar
+  2.2
+3.Slider Area
+  3.1 Form Register
+  3.2 Baner-text
+  3.3 Baner-box
+4.You-want
+5.Who-learn
+6.Learn-aptech
+
+7.Why-choose-us
+
+8.Courses
+
+9.Opportunity
+
+10.Testimonial Area
+
+11.Footer
+**/
+
+/*******************************
+     1. Theme Default
+********************************/
+
+
+@font-face {
+    font-family: 'SVN-Nexa-Bold';
+    src: url('../fonts/SVN-Nexa-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SVN-Nexa-Light';
+    src: url('../fonts/SVN-Nexa-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SanFranciscoText-BoldG1';
+    src: url('../fonts/SanFranciscoText-BoldG1.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SanFranciscoText-Bold';
+    src: url('../fonts/SanFranciscoText-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SanFranciscoText-Medium';
+    src: url('../fonts/SanFranciscoText-Medium.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SanFranciscoText-RegularG3';
+    src: url('../fonts/SanFranciscoText-RegularG3.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'VL_Reso-Regular';
+    src: url('../fonts/VL_Reso-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+color: #ffffff;
+
+}
+*{
+    box-shadow: none;
+}
+/*******************************
+         Global CSS
+********************************/
+.no-padding{
+    padding: 0;
+}
+.section-title-wrapper{
+    position: relative;
+    margin: 2rem 0;
+}
+.section-title-wrapper h1{
+    text-align: center;
+    color: #231F20;
+    font-family: "SVN-Nexa-Bold";
+    font-size: 3em;
+}
+.section-title-wrapper > hr{
+    border-width: 2px;
+    max-width: 15rem;
+    border-color: #000;
+}
+
+/*******************************
+     2. Header
+********************************/
+header{
+    background-color: #fff;
+    height: 80px;
+}
+.container-fluid-header {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navbar-brand .logo{
+    background-image: url("../images/logo.png");
+    background-size: 200px 145px;
+    width: 200px;
+    height: 145px;
+}
+.fix-nav >.nav-item >a.nav-link:hover{
+    color: #5376B9;
+}
+.fix-nav{
+    margin: -40px 0 0 253px;
+    height: 20px;
+}
+.fix-nav  .nav-item{
+    /* border-right: 1px solid #231F20; */
+    line-height: 4px;
+}
+.fix-nav >.nav-item:last-child{
+    border-right: none;
+}
+.fix-nav > .nav-item >.nav-link{
+    color: #231F20;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 1.1em;
+}
+/*******************************
+     3.Slider Area
+********************************/
+#slider{
+    background-image: url("../images/slider/slider-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 60px;
+    box-shadow: none;
+}
+.header-slider{
+    padding-left: 6%;
+    margin-left: 11%;
+    background-color: #1d1e1f;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 17.4pt;
+    margin-top: -60px;
+}
+.slier-img{
+
+}
+.slier-img > img{
+    width: 544px;
+    height: 641px;
+    margin-left: -43px;
+    margin-right: -10px;
+}
+  /*** 3.1 Form Register ***/
+
+.form-register{
+    padding: 12px;
+    margin-top: 74%;
+    font-size: 0.8rem;
+    background: rgb(54, 25, 25); /* Fall-back for browsers that don't support rgba */
+    background: rgba(54, 25, 25, .5);
+    color: #ffffff;
+    position: absolute;
+    z-index: 99999;
+}
+.form-register > hr{
+    border-width: 2px;
+    max-width: 12rem;
+    border-color: #ffffff;
+}
+
+.form-register p {
+    padding-left: 15px;
+}
+.form-register .radio-button{
+    padding-left: .75rem;
+}
+.text-input{
+    margin: 5px 5px 0 15px;
+    width: 90%;
+    font-family: "Roboto";
+    font-size: 1.1em;
+}
+.form-register h1{
+    text-align: center;
+    font-family: 'SVN-Nexa-Light';
+}
+.input-radio-button{
+    margin-right: 0.3rem;
+}
+.form-register > .button-submit{
+    margin-left: 75%;
+    background-color: #01917F;
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    font-size: 1.5em;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.form-register > .button-submit:hover{
+    box-shadow: 0 0.4rem 0.5rem rgba(0, 0, 0, 0.3);
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+}
+   /*** 3.2 Baner-text ***/
+.baner-text{
+    margin-top: 90px;
+}
+.baner-text p {
+    font-family: 'Roboto';
+    font-size: 1.3em;
+    font-weight: 500;
+}
+.baner-text .between{
+    padding-left: 44px;
+    font-size: 13.54pt;
+    font-family: "SanFranciscoText-BoldG3";
+}
+.character-before {
+    float: left;
+    font-family: monospace;
+    line-height: 60px;
+    padding-right: 8px;
+    font-size: 6em;
+    margin-left: -5px;
+}
+.second-child{
+    font-size: 16.09px;
+    padding-left: 42px;
+}
+.second-child > p{
+    font-family: "SanFranciscoText-Bold";
+    font-size: 1.3em;
+}
+.character-after{
+    font-family: inherit;
+    font-weight: 100;
+    float: right;
+    font-size: 7em;
+    margin-top: -83px;
+    line-height: 7px;
+}
+.button-registernow{
+    position: relative;
+    display: inline-block;
+    background-color: #FFBC00;
+    border-radius: .9rem;
+    padding: 2px 23px;
+    margin: auto;
+    margin-bottom: 22px;
+    clear: both;
+    border: 0;
+    font-family: "San Francisco Text Regular G3";
+    font-size: 1.2em;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    -webkit-transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.button-registernow::after {
+    content: "";
+    border-radius: .9rem;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    -webkit-transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.button-registernow:hover {
+    -webkit-transform: scale(1.15, 1.15);
+    transform: scale(1.15, 1.15);
+}
+
+.button-registernow:hover::after {
+    opacity: 0.8;
+}
+
+.baner-text > .padding{
+ color: #000;
+    padding-left: 75px;
+}
+
+/***** 3.3 Baner-box ******/
+
+.baner-box{
+    line-height: 11px;
+    background: rgba(54, 25, 25, .5);
+    color: #ffffff;
+    margin-left: -23px;
+    margin-top: -12px;
+    text-align: center;
+    display: block;
+    padding-top: 7px;
+    padding-bottom: 5px;
+}
+.baner-box > p{
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 1.1em;
+}
+.baner-box >.color{
+    color: #FFBC00;
+}
+
+/*******************************
+    4.You-want Area
+********************************/
+
+#you-want{
+   background-color: #EFB21D;
+}
+
+.single-want-item{
+    margin: 2rem 0;
+    margin-bottom: 50px;
+}
+.single-want-item-image > a img{
+    height: 162px;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.single-want-item-image > a img:hover{
+    box-shadow: 0 0.4rem 0.5rem rgba(0, 0, 0, 0.3);
+
+}
+.single-want-item-text > p{
+    font-size: 1.3em;
+    color: #231F20;
+    line-height: 1.2em;
+    font-family: "Roboto";
+    font-weight:  inherit;
+    padding: 10px 0 0 0;
+}
+
+/*******************************
+    5.Who-learn
+********************************/
+
+.section-title-wrapper-h1{
+    position: relative;
+    margin: 2rem 0;
+}
+.section-title-wrapper-h1 h1{
+    text-align: center;
+    color: #AC1F24;
+    font-family: "SVN-Nexa-Bold";
+    font-size: 3em;
+}
+.section-title-wrapper-h1 >hr{
+    border-width: 2px;
+    max-width: 15rem;
+    border-color: #AC1F24;
+}
+
+.who-learn-single-want-item{
+    margin-top: 30px;
+}
+.who-learn-single-want-item-image > a img {
+    border-radius: 3em;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.who-learn-single-want-item-image > a img:hover{
+    box-shadow: 0 0.4rem 0.5rem rgba(0, 0, 0, 0.3);
+}
+.who-learn-single-want-item-text h3{
+    padding: 10px 0 0 0;
+    font-family: Roboto;
+    font-size: 1.3em;
+    line-height: 1.2em;
+    color: #231F20;
+    text-align: center;
+}
+.who-learn-single-want-item-text p {
+    color: #231F20;
+    font-family: Roboto;
+    font-size: 1.3em;
+    line-height: 1.2em;
+    text-align: center;
+}
+
+/*******************************
+   6.Learn-aptech
+********************************/
+
+#learn-aptech{
+    background-image:url('../images/Learn-aptech/bg-lead.png') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 442px;
+    width: 100%;
+    background-attachment: fixed;
+}
+.learn-aptech-section-title-wrapper{
+    position: relative;
+    margin: 2rem 0;
+}
+.learn-aptech-section-title-wrapper h1{
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "SVN-Nexa-Bold";
+    font-size: 3em;
+}
+.learn-aptech-section-title-wrapper hr{
+    border-width: 2px;
+    max-width: 15rem;
+    border-color: #ffffff;
+}
+.learn-aptech-single-want-item-text p{
+    padding: 29px 0px 41px 54px;
+    font-family: "Roboto";
+    font-size: 1.6em;
+    line-height: 1.3em;
+    font-weight: 300;
+}
+.learn-aptech-single-want-item-image >img{
+    margin: 34px;
+    height: 111px;
+}
+
+/*******************************
+   7.Why-choose-us
+********************************/
+
+#whychooseus{
+    background-color: #ECEDED;
+    background-image: url('../images/whychooseus/chooseus_bg.png');
+    background-repeat: no-repeat;
+    height: 1102px;
+}
+.button-register-now {
+    background-color: #AC1F24;
+    color: #FFFFFF;
+    font-family: "San Francisco Text Regular G3";
+    position: relative;
+    display: inline-block;
+    border-radius: .9rem;
+    padding: 9px 35px;
+    margin-left: 450px;
+    margin-bottom: 22px;
+    margin-top: 82px;
+    clear: both;
+    border: 0;
+    font-size: 1.2em;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    -webkit-transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.button-register-now::after {
+    content: "";
+    border-radius: .9rem;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    -webkit-transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.button-register-now:hover {
+    -webkit-transform: scale(1.15, 1.15);
+    transform: scale(1.15, 1.15);
+}
+
+.button-register-now:hover::after {
+    opacity: 0.8;
+}
+.why-choose-us-paragraph{
+    font-family: "Roboto";
+    line-height: 1.3em;
+    font-size: 1.2em;
+    color: #231F20;
+    padding: 5px 10px 0 5px;
+}
+
+/*******************************
+   8.Courses
+********************************/
+
+
+#courses{
+    background-image: url('../images/courses/bg-courses.png');
+    background-repeat: no-repeat;
+    height: 1329px;
+}
+.section-title-wrapper > p{
+    color: #231F20;
+    text-align: center;
+    line-height: 0.5em;
+    font-family: "Roboto";
+    font-size: 1.1em;
+}
+
+.courses-item{
+    height: 917px;
+    background-color: #FFFFFF;
+    border-radius: 1.7em;
+    color: #231F20;
+}
+
+.courses-item > .courses-item-title{
+    background-color: #AC1F24;
+    height: 45px;
+    text-align: center;
+    border-top-left-radius: 1.7em;
+    border-top-right-radius: 1.7em;
+    display: block;
+    padding-top: 5px;
+}
+.courses-item-title >h3{
+   color: #FFFFFF;
+    font-family: "Roboto";
+    padding-top: 3px;
+}
+.courses-item-content{
+    padding: 10px;
+}
+.courses-item-content > p{
+    font-family: "Roboto";
+    line-height: 1.3em;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.courses-item-content > h4{
+    font-family: "Roboto";
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+.courses-item-content > span{
+    font-family: "Roboto";
+    font-size: 1.1em;
+    font-weight: 500;
+}
+.courses-item-img > img {
+    width: 178px;
+    padding-right: 15px;
+    padding-left: 4px;
+    margin-left: 47px;
+    margin-top: -16px;
+}
+.courses-item-img1 >img {
+    width: 153.6092px;
+    margin-left: 56px;
+    margin-top: 36px;
+}
+.courses-item-img2 >img {
+    width: 175.6092px;
+    margin-left: 41px;
+    margin-top: 141px;
+}
+.courses-item-img3 >img {
+    width: 178.6092px;
+    margin-left: 38px;
+    margin-top: 23px;
+}
+.button-courses{
+    padding: 4px 17px;
+    background-color: #ffffff;
+    border: 1px solid #370832;
+    border-radius: 2em;
+    margin: 15px 69px;
+}
+
+/*******************************
+   9.Opportunity
+********************************/
+
+
+#opportunity{
+    background-image: url('../images/opportunity/bg-qpportunity.png');
+    background-repeat: no-repeat;
+    height: 432px;
+    background-position: -205px;
+}
+
+.opportunity-text > li > p{
+    font-family: "Roboto";
+    font-weight: 300;
+    line-height: 1em;
+    font-size: 1.3em;
+}
+
+/*******************************
+   10.Testimonial Area
+********************************/
+
+#testimonial{
+    height: 450px;
+    color: #231f20;
+    font-family: 'Roboto';
+}
+#carouseltestimonialIndicators > ol li {
+    background-color: #999 !important;
+    background-color: rgba(70,70,70,.25) !important;
+}
+#carouseltestimonialIndicators  li{
+    max-width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 15px;
+}
+#carouseltestimonialIndicators .carousel-indicators{
+    bottom: -50px;
+}
+#carouseltestimonialIndicators .carousel-indicators .active {
+    background-color: rgb(35, 31, 32)!important;
+}
+.carousel-item-caption p {
+ font-style: italic;
+ padding-top: 10px;
+}
+.carousel-item-caption > p span {
+ font-style: oblique;
+    font-weight: 800;
+}
+
+.carousel-item-caption .carousel-item-img{
+    width: 250px;
+    height: 250px;
+}
+/*******************************
+           Footer
+********************************/
+
+#footer{
+    background-image: url('../images/footer/bg-footer.png');
+    background-repeat: no-repeat;
+    height: 584px;
+}
+.footer-item{
+    padding: 57px 0 0 50px;
+    color: #231F20;
+}
+.footer-item-img{
+    padding-top: 85px;
+    margin-left: -23px;
+    clear: both;
+}
+.footer-item-img >img {
+    height: 330px;
+    width: 600px;
+    -ms-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-8deg);
+    box-shadow: 4px 6px 22px 0px rgb(45, 39, 39);
+    border: 5px solid #ffffff;
+}
+.footer-item-icon{
+    float: right;
+    padding-top: 15px;
+}
+
+.footer-item-text > h2{
+    font-family: "SVN-Nexa-Bold";
+    font-size: 2em;
+    margin-bottom: 45px;
+}
+.footer-item-contener > span{
+    font-family: "Roboto";
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.footer-item-contener > p{
+    font-family: "Roboto";
+    font-size: 1.2em;
+    line-height: 1.1em;
+    font-weight: 400;
+}
+
+/*******************************************
+               Responsive CSS
+********************************************/
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 479px) {
+
+    /*----------------Navigator------------------------*/
+    .container-fluid-header {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .navbar-brand .logo {
+        background-image: url(../images/logo/logo-aptech.jpg);
+        background-size: 100% 3.5rem;
+        background-repeat: no-repeat;
+        width: 70%;
+        height: 4rem;
+    }
+    .navbar-nav {
+        padding: 6px;
+        z-index: 9999;
+        height: auto;
+        overflow-y: hidden;
+        background-color: #FFFFFF;
+        position: relative;
+    }
+    .navbar-toggler {
+        margin-top: .7rem;
+        margin-right: 1rem;
+    }
+    .navbar{
+        margin: 0 -1rem 0;
+    }
+    .navbar-nav > li {
+        text-align:left;
+        margin-bottom: 4px;
+    }
+    .navbar-inverse .navbar-nav .nav-link {
+        /* color: rgba(255,255,255,.5); */
+        /* color: black; */
+        color: rgba(0, 0, 0, 0.5);
+        -webkit-transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
+        -ms-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+    }
+    .fix-nav{
+        margin:0;
+    }
+    .fix-nav >.nav-item{
+        border:0;
+        padding-left: 2%;
+    }
+    /*-------------------Slider----------------*/
+    .header-slider{
+        font-size: 9.8pt;
+        margin-left: -1rem;
+    }
+    .form-register{
+        margin-top: 12%;
+    }
+    .slier-img > img {
+        width: 100%;
+        height: 586px;
+        margin-left: 6px;
+        margin-top: 31px;
+    }
+    /*--------------------You-Want Area----------------*/
+    .single-want-item {
+        margin: 4% -2% 0;
+    }
+    .single-want-item-image > a img {
+        margin-left: 53px;
+        height: 162px;
+        -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+        transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+    .single-want-item-text p{
+        text-align: center;
+    }
+
+    /*----------------Who-Learn Area--------------------*/
+    .who-learn-single-want-item-image > a img {
+        border-radius: 1.35em;
+        height: 166px;
+        margin-left: 15%;
+        margin-right: 17px;
+        -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+        transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+    .who-learn-single-want-item-text h3 {
+        padding: 10px 0 0 0;
+        font-family: Roboto;
+        font-size: 1.1em;
+        line-height: 1.1em;
+        color: #231F20;
+        text-align: center;
+    }
+    .who-learn-single-want-item-text p {
+        color: #231F20;
+        font-family: Roboto;
+        font-size: 1em;
+        line-height: 1.2em;
+        text-align: center;
+    }
+    /*----------------Learn-aptech Area--------------------*/
+    #learn-aptech {
+        background-image: url(../images/Learn-aptech/bg-lead.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 470px;
+        width: 100%;
+    }
+    .learn-aptech-section-title-wrapper h1 {
+        color: #FFFFFF;
+        text-align: center;
+        font-family: "SVN-Nexa-Bold";
+        font-size: 1.7em;
+    }
+    .learn-aptech-single-want-item-text p {
+        font-family: "Roboto";
+        font-size: 1.3em;
+        line-height: 1.2em;
+        font-weight: 200;
+        padding: 0;
+    }
+    .learn-aptech-single-want-item-image >img {
+        margin: 0 74px;
+        height: 96px;
+    }
+    /*----------------Why-choose-us Area--------------------*/
+    #whychooseus {
+        background-color: #ECEDED;
+        background-image: url(../images/whychooseus/chooseus_bg.png);
+        background-repeat: no-repeat;
+        height: 1436px;
+    }
+    .section-title-wrapper h1 {
+        text-align: center;
+        color: #231F20;
+        font-family: "SVN-Nexa-Bold";
+        font-size: 1.7em;
+    }
+    .why-choose-us-paragraph {
+        font-family: "Roboto";
+        line-height: 1.3em;
+        font-size: 1.2em;
+        color: #231F20;
+        padding: 0px 10px 0 10px;
+    }
+    .button-register-now {
+        background-color: #AC1F24;
+        color: #FFFFFF;
+        font-family: "San Francisco Text Regular G3";
+        position: relative;
+        display: inline-block;
+        border-radius: .9rem;
+        padding: 9px 35px;
+        margin-bottom: 22px;
+        margin-top: 23px;
+        margin-left: 55px;
+        clear: both;
+        border: 0;
+        font-size: 1.2em;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+        -webkit-transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+        transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+    /*------------------------Courses Area ---------------------*/
+    #courses {
+        background-image: none;
+        height: 4050px;
+    }
+    .section-title-wrapper > p {
+        color: #231F20;
+        text-align: center;
+        line-height: 0.9em;
+        font-size: 1.1em;
+    }
+    .section-title-wrapper strong{
+        line-height: 1.2em;
+    }
+    .courses-item {
+        height: 875px;
+        background-color: #FFFFFF;
+        border-radius: 1.7em;
+        color: #231F20;
+        margin-bottom: 22px;
+        box-shadow: 0 0 4px 3px rgba(204, 207, 208, 0.5);
+    }
+    .courses-item-content > h4 {
+        font-size: 1.2em;
+        line-height: 1.3em;
+        font-weight: 300;
+    }
+    .courses-item-content > p {
+        line-height: 1.15em;
+        font-size: 1.2em;
+        font-weight: 200;
+    }
+    .courses-item-content > span {
+        font-size: 1.25em;
+        font-weight: 500;
+    }
+    .courses-item-img > img {
+        margin-top: -14%;
+        padding-left: 2px;
+        margin-left: 30%;
+    }
+    .button-courses {
+        padding: 4px 17px;
+        background-color: #ffffff;
+        border: 1px solid #370832;
+        border-radius: 2em;
+        margin: 19px 110px;
+    }
+    .courses-item-img1 >img {
+        width: 146.6092px;
+        margin-left: 88px;
+        margin-top: 6px;
+    }
+    .courses-item-img2 >img {
+        width: 175.6092px;
+        margin-left: 69px;
+        margin-top: 105px;
+    }
+    .courses-item-img3 >img {
+        width: 154.6092px;
+        margin-left: 30%;
+        margin-top: 4%;
+    }
+    /*------------------------Opportunity Area ---------------------*/
+    .opportunity-text ul  {
+        line-height: 1em;
+        font-size: 1.2em;
+        font-weight: 200;
+    }
+    /*-------------------Start Testimonial Area---------------------*/
+    #testimonial {
+        height: 660px;
+    }
+    .carousel-item-caption .carousel-item-img {
+        padding-left: 52px;
+        width: 296px;
+        height: 239px;
+    }
+    /*----------------------Footer Area--------------------------*/
+    .footer-item-img {
+        padding-top: 85px;
+        margin-left: 8px;
+        clear: both;
+    }
+    .footer-item-img {
+        padding-top: 35px;
+        margin-left: 33px;
+        clear: both;
+    }
+    .footer-item-img >img {
+        height: 146px;
+        width: 253px;
+    }
+    .footer-item-icon {
+        float: right;
+        padding-top: 15px;
+    }
+    .footer-item-icon img{
+        height: 35px;
+        padding: 0 41px;
+    }
+    .footer-item {
+        padding: 12px 0 0 23px;
+    }
+    .footer-item-text > h2 {
+        font-size: 1.3em;
+        margin-bottom: 25px;
+    }
+    .footer-item-contener > p {
+        font-family: "Roboto";
+        font-size: 0.9em;
+        line-height: 1.26em;
+        font-weight: 500;
+        margin-bottom: 4px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 575px) and (max-width: 767px) {
+    .single-want-item-image > a img {
+        height: 162px;
+        -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+        transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+    .img-fluid {
+        max-width: 100%;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+    /*----------------Navigator------------------------*/
+    .fix-nav > .nav-link{
+        font-size: 1.2em;
+    }
+    .fix-nav {
+        margin: -40px 0 0 -19px;
+        height: 20px;
+    }
+    .fix-nav .nav-item{
+        background-color: #ffffff;
+        border: 0;
+        margin-top: -22px;
+        padding: 24px;
+        margin-left: -12px;
+        margin-right: -31px;
+    }
+    /*-------------------Slider----------------*/
+    .form-register{
+        margin-top: 100%;
+        position: relative;
+        z-index: 99999;
+    }
+    .form-register > .button-submit{
+        margin-left: 56%;
+    }
+    .slier-img {
+        margin-top: 0;
+    }
+    .slier-img > img {
+        width: 400px;
+        margin-left: -44px;
+    }
+    .baner-text {
+        margin-top: 56%;
+    }
+    .baner-text p {
+        font-size: 1rem;
+    }
+    .second-child{
+       padding-left: 39px;
+    }
+    .second-child >p {
+        font-family: none;
+    }
+    .character-after{
+        line-height: 1px;
+        margin-right: -13px;
+    }
+    .character-before{
+        line-height: 0.8em;
+        font-size: 6em;
+        margin-left: -8px;
+    }
+    .baner-text .between {
+        padding-left: 43px;
+        font-size: 11.54pt;
+    }
+    .button-registernow{
+        padding: 2px 9px;
+
+    }
+    .baner-box{
+        font-size: 14px;
+    }
+    /*--------------------You-Want Area----------------*/
+    /*----------------Who-Learn Area--------------------*/
+    .who-learn-single-want-item-text h3{
+        padding: 8px 0 0 0;
+        font-size: 1.2em;
+    }
+    .who-learn-single-want-item-text p{
+        font-size: 1.1em;
+    }
+    /*----------------Learn-aptech Area--------------------*/
+    .learn-aptech-single-want-item-text p{
+        padding: 0;
+        font-size: 1.4em;
+    }
+    .learn-aptech-single-want-item-image >img{
+        margin: 9px;
+    }
+    /*----------------Why-choose-us Area--------------------*/
+    #whychooseus{
+        background-position: -44px 359px;
+        background-size: 106%;
+    }
+    .why-choose-us-paragraph{
+        padding: 0;
+        margin: -15px 0 0 -25px;
+        font-size: 1.1em;
+    }
+    .button-register-now{
+        padding: 5px 22px;
+        margin-left: 240px;
+        margin-top: 31px;
+    }
+    /*------------------------Courses Area ---------------------*/
+    #courses{
+        height: 1367px;
+    }
+    .courses-item-content > h4{
+        font-size: 0.9em;
+    }
+    .courses-item-content > p{
+        line-height: 1.2em;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .courses-item{
+        height: 1010px;
+    }
+    .courses-item-img > img{
+        margin-left: 14px;
+        width: 140px;
+        margin-top: -26px;
+    }
+    .courses-item-img1 >img {
+        width: 117.6092px;
+        margin-left: 20px;
+        margin-top: 9rem;
+    }
+    .courses-item-img2 >img {
+        width: 120.70px;
+        margin-left: 16px;
+        margin-top: 17em;
+    }
+    .courses-item-img3 >img {
+        width: 132.6092px;
+        margin-left: 8px;
+        margin-top: 58px;
+    }
+    .button-courses{
+        padding: 1px 2px;
+        margin: 14px 35px;
+    }
+    /*------------------------Opportunity Area ---------------------*/
+    #opportunity{
+        background-position: -565px;
+    }
+    /*-------------------Start Testimonial Area---------------------*/
+    .carousel-item-caption .carousel-item-img {
+        width: 213px;
+        height: 222px;
+    }
+    #carouseltestimonialIndicators .carousel-indicators {
+        bottom: -80px;
+    }
+    /*----------------------Footer Area--------------------------*/
+    #footer{
+        height: 560px;
+    }
+    .footer-item-img {
+        padding-top: 89px;
+        margin-left: -18px;
+    }
+    .footer-item-img >img {
+        height: 278px;
+        width: 390px;
+    }
+    .footer-item-icon {
+        padding-top: 41px;
+    }
+    .footer-item {
+        padding: 57px 0 0 47px;
+    }
+    .footer-item-text > h2{
+        font-size: 1.5em;
+    }
+    .footer-item-contener > p{
+        font-weight: 500;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
+
+
